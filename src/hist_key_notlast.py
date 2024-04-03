@@ -1,0 +1,59 @@
+import argparse
+import jsonlines
+import matplotlib.pyplot as plt
+
+def make_unix_filename(string):
+    # Replace illegal characters with underscores
+    legal_chars = '-_.'
+    for char in string:
+        if not char.isalnum() and char not in legal_chars:
+            string = string.replace(char, '_')
+
+    return string
+
+def plot_histogram(data, key, title, xaxis):
+    filename = "plots/" + make_unix_filename(title)
+    plt.hist(data, bins=20, edgecolor='black')
+    plt.title(title)
+    plt.xlabel(xaxis)
+    plt.ylabel('Frequency')
+    plt.grid(True)
+    plt.savefig(filename)
+    plt.close()
+
+def main(input_filename, key, title = "Histogram", xaxis = "Value"):
+    values = []
+
+    with jsonlines.open(input_filename, 'r') as reader:
+        for line in reader:
+            if key in line:
+                values.extend(line[key][:-2])
+
+    if values:
+        plot_histogram(values, key, title, xaxis)
+        print(len(values))
+    else:
+        print(f"No data found for key '{key}' in the input file.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Create a histogram for a key in a JSONL file')
+    parser.add_argument('input_file', type=str, help='Input JSONL filename')
+    parser.add_argument('key', type=str, help='Key for histogram')
+    parser.add_argument('title', nargs = "?", type=str, help='Title for histogram')
+    parser.add_argument('xaxis', nargs = "?", type=str, help='Label for x-axis')
+    args = parser.parse_args()
+
+    input_filename = args.input_file
+    key = args.key
+    if (args.title):
+        title = args.title
+    else:
+        title = f"Histogram of {key}"
+
+    if (args.xaxis):
+        xaxis = args.xaxis
+    else:
+        xaxis = f"{key}"
+
+
+    main(input_filename, key, title, xaxis)
