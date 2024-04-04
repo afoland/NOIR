@@ -1,7 +1,5 @@
-import sys
 import torch
 from transformers import AutoModel, AutoTokenizer
-import jsonlines
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
