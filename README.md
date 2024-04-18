@@ -1,2 +1,2 @@
 # sque
-Code for the SQUE summarization metric
+Code for the NOIR summarization metric
