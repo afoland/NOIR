@@ -1,3 +1,4 @@
+# (C) Andrew Foland, Sonnetiq, 2024; license granted under Apache 2.0
 import torch
 from transformers import AutoModel, AutoTokenizer
 import numpy as np
