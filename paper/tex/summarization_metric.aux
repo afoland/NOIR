@@ -1,0 +1,147 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{2023arXiv230504853R}
+\citation{fabbri_summeval_2021}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{retkowski2023current}
+\citation{lin_rouge_2004}
+\citation{zhang_bertscore_2019}
+\citation{yuan_bartscore_2021}
+\citation{lin_rouge_2004}
+\citation{fabbri_summeval_2021}
+\citation{xiao_primera_2022}
+\citation{fabbri_summeval_2021}
+\citation{supert}
+\citation{vasilyev-etal-2020-fill}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Summary embedding similarity to parent document similarity as a function of length compression. As the summarizer uses fewer tokens, semantic similarity is reduced. The quality of a summarizer can be measured by how quickly it falls off as a function of token compression.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:similarityvslength}{{1}{2}{Summary embedding similarity to parent document similarity as a function of length compression. As the summarizer uses fewer tokens, semantic similarity is reduced. The quality of a summarizer can be measured by how quickly it falls off as a function of token compression}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Contributions}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Background}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Previous Work}{2}{subsection.3.1}\protected@file@percent }
+\citation{guo-vosoughi-2023-length}
+\citation{hill-etal-2016-learning}
+\citation{DBLP:journals/corr/abs-2002-10957}
+\citation{DBLP:journals/corr/SutskeverVL14}
+\citation{muennighoff2022mteb}
+\citation{mikolov2013efficient}
+\citation{pennington-etal-2014-glove,}
+\citation{DBLP:journals/corr/abs-1810-04805}
+\citation{DBLP:journals/corr/abs-1907-11692}
+\@writefile{toc}{\contentsline {section}{\numberline {4}The Methodology}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Overview}{3}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:tokencount}{{1}{3}{Overview}{equation.4.1}{}}
+\newlabel{eq:degradationsteps}{{2}{3}{Overview}{equation.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Measurement of Semantic Degradation}{3}{subsection.4.2}\protected@file@percent }
+\citation{randomwalk}
+\citation{badembeddings}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Motivation for Cosine Similarity as Degradation Measure}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Sentence Embeddings}{4}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Summarization}{4}{subsection.4.5}\protected@file@percent }
+\citation{finegrained}
+\citation{multirc2}
+\citation{multirc2}
+\citation{multirc2}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Demonstration of similarity of $\cos  \sqrt  {x} $ and $e^{-0.66x}$ over the range from $\cos  \sqrt  {x}=1$ to $\cos  \sqrt  {x} = 0.2$. The coefficient value of 0.66 is found by a least-squares fit to the cosine over the range. The functional closeness motivates the choice of cosine similarity as a multiplicative semantic degradation measure.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:expcos}{{2}{5}{Demonstration of similarity of $\cos \sqrt {x} $ and $e^{-0.66x}$ over the range from $\cos \sqrt {x}=1$ to $\cos \sqrt {x} = 0.2$. The coefficient value of 0.66 is found by a least-squares fit to the cosine over the range. The functional closeness motivates the choice of cosine similarity as a multiplicative semantic degradation measure}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Content and Length Variability}{5}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Length Correlations}{5}{subsubsection.4.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup}{5}{section.5}\protected@file@percent }
+\citation{randomparagraphs}
+\citation{DBLP:journals/corr/abs-2002-10957}
+\citation{badembeddings}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Topics and sources in the summarization dataset, taken from \cite  {multirc2}.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:summarizationdataset}{{1}{6}{Topics and sources in the summarization dataset, taken from \cite {multirc2}}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Datasets}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Summarization Dataset}{6}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Paraphrase Dataset}{6}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Sentence Embedding}{6}{subsection.5.2}\protected@file@percent }
+\citation{tiktoken}
+\citation{touvron_llama_2023}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of semantic similarity for random pairings of paragraphs with the \texttt  {all-MiniLM-L6-v2} sentence embedding.}}{7}{figure.3}\protected@file@percent }
+\newlabel{fig:randomsimilarity}{{3}{7}{Distribution of semantic similarity for random pairings of paragraphs with the \texttt {all-MiniLM-L6-v2} sentence embedding}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Language Model and Prompts}{7}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Note on Token Count}{7}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Test Summarizations}{7}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Null Summarizations}{7}{subsection.5.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Distribution of cosine similarity for pairings of paragraphs with their summaries. The distribution is peaked near 1.0.}}{8}{figure.4}\protected@file@percent }
+\newlabel{fig:summary_similarities}{{4}{8}{Distribution of cosine similarity for pairings of paragraphs with their summaries. The distribution is peaked near 1.0}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Paraphrase Tests}{8}{subsection.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.1}Semantic Similarity Distribution}{8}{subsubsection.5.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2}Evaluation of Text Length Correlations}{8}{subsubsection.5.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Code and Dataset Availability}{8}{subsection.5.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of cosine similarity for paragraphs and their paraphrases, as a function of normalized paraphrase length $\frac  {\ell _{para}}{\ell _{text}}$. }}{9}{figure.5}\protected@file@percent }
+\newlabel{fig:paraphrase_normlength}{{5}{9}{Distribution of cosine similarity for paragraphs and their paraphrases, as a function of normalized paraphrase length $\frac {\ell _{para}}{\ell _{text}}$}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Observed correlations between 368 individial embedding vector components and the normalized length of the input. No correlation patterns strong enough to materially alter cosine similarity due to length alone are evident.}}{9}{figure.6}\protected@file@percent }
+\newlabel{fig:corrnormlength}{{6}{9}{Observed correlations between 368 individial embedding vector components and the normalized length of the input. No correlation patterns strong enough to materially alter cosine similarity due to length alone are evident}{figure.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results and Analysis}{9}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Performance Evaluation}{9}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Distribution of $M_{NOIR}$ quality for random pairings of paragraphs with summaries of other paragraphs. The mean value is 0.35, close to 0.}}{10}{figure.7}\protected@file@percent }
+\newlabel{fig:mNOIR_random}{{7}{10}{Distribution of $M_{NOIR}$ quality for random pairings of paragraphs with summaries of other paragraphs. The mean value is 0.35, close to 0}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Distribution of $M_{NOIR}$ quality for summaries, summaries of summaries, and summaries of summaries of summaries. Also shown is a gaussian fit to the distribution. The fitted mean value is 4.55$\pm $0.06, with a Gaussian $\sigma $ of 2.08. It is well-separated from the values for random pairings of paragraphs and other summaries.}}{10}{figure.8}\protected@file@percent }
+\newlabel{fig:mNOIR}{{8}{10}{Distribution of $M_{NOIR}$ quality for summaries, summaries of summaries, and summaries of summaries of summaries. Also shown is a gaussian fit to the distribution. The fitted mean value is 4.55$\pm $0.06, with a Gaussian $\sigma $ of 2.08. It is well-separated from the values for random pairings of paragraphs and other summaries}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Hyperparameter Studies}{10}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Form of the NOIR Expression}{10}{subsubsection.6.2.1}\protected@file@percent }
+\citation{mpnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Distribution of $M_{NOIR}$ against input text length (in tokens). In addition to the scatterplot, the average $y$ value ($M_{NOIR}$ value) is shown, together with its standard error on the mean. Also shown is a linear fit to the trend. The fitted slope is 0.0003$\pm $0.0005, or at most about 0.40 units of $M_{NOIR}$ quality (about 10\% variation) per 500 tokens}}{11}{figure.9}\protected@file@percent }
+\newlabel{fig:mNOIR_trend}{{9}{11}{Distribution of $M_{NOIR}$ against input text length (in tokens). In addition to the scatterplot, the average $y$ value ($M_{NOIR}$ value) is shown, together with its standard error on the mean. Also shown is a linear fit to the trend. The fitted slope is 0.0003$\pm $0.0005, or at most about 0.40 units of $M_{NOIR}$ quality (about 10\% variation) per 500 tokens}{figure.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces $M_{NOIR}$ distribution separation (in standard deviations of the distribution) between random pairings of text, and true summaries, as a function of the power $p$ applied to the denominator of NOIR. The separation peaks at 1.0, the originally-motivated value of $p$, and we conclude this is an empirically acceptable value.}}{11}{figure.10}\protected@file@percent }
+\newlabel{fig:powerseparation]}{{10}{11}{$M_{NOIR}$ distribution separation (in standard deviations of the distribution) between random pairings of text, and true summaries, as a function of the power $p$ applied to the denominator of NOIR. The separation peaks at 1.0, the originally-motivated value of $p$, and we conclude this is an empirically acceptable value}{figure.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Using a Different Embedder}{11}{subsubsection.6.2.2}\protected@file@percent }
+\citation{5071230}
+\citation{supert}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Analysis of the summary dataset using another embedder, \texttt  {all-mpnet-base-v2}. From left to write: similarity as a function of token cmopression; similarity for random unrelated text pairings; similarity for summary pairs; distribution of observed $M_{NOIR}$ values. The NOIR values are modestly higher for this embedder.}}{12}{figure.11}\protected@file@percent }
+\newlabel{fig:mpnet}{{11}{12}{Analysis of the summary dataset using another embedder, \texttt {all-mpnet-base-v2}. From left to write: similarity as a function of token cmopression; similarity for random unrelated text pairings; similarity for summary pairs; distribution of observed $M_{NOIR}$ values. The NOIR values are modestly higher for this embedder}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Human rank-ordering of test-summary pair summarization quality as a function of NOIR metric rank for the pair. The correlation is +0.36, demonstrating that NOIR correlates to human perception of summarization quality.}}{12}{figure.12}\protected@file@percent }
+\newlabel{fig:humaneval}{{12}{12}{Human rank-ordering of test-summary pair summarization quality as a function of NOIR metric rank for the pair. The correlation is +0.36, demonstrating that NOIR correlates to human perception of summarization quality}{figure.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparison to Human Evaluation}{12}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Efficiency and Objectivity}{12}{subsection.6.4}\protected@file@percent }
+\bibstyle{unsrtnat}
+\bibdata{references}
+\bibcite{2023arXiv230504853R}{{1}{2023}{{Retkowski}}{{}}}
+\bibcite{fabbri_summeval_2021}{{2}{2021}{{Fabbri et~al.}}{{Fabbri, Kryściński, McCann, Xiong, Socher, and Radev}}}
+\bibcite{retkowski2023current}{{3}{2023}{{Retkowski}}{{}}}
+\bibcite{lin_rouge_2004}{{4}{2004}{{Lin}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{13}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Summary of Contributions}{13}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Potential Impact and Future Work}{13}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Real-World Applications}{13}{subsection.7.3}\protected@file@percent }
+\bibcite{zhang_bertscore_2019}{{5}{2019}{{Zhang et~al.}}{{Zhang, Kishore, Wu, Weinberger, and Artzi}}}
+\bibcite{yuan_bartscore_2021}{{6}{2021}{{Yuan et~al.}}{{Yuan, Neubig, and Liu}}}
+\bibcite{xiao_primera_2022}{{7}{2022}{{Xiao et~al.}}{{Xiao, Beltagy, Carenini, and Cohan}}}
+\bibcite{supert}{{8}{2020}{{Gao et~al.}}{{Gao, Zhao, and Eger}}}
+\bibcite{vasilyev-etal-2020-fill}{{9}{2020}{{Vasilyev et~al.}}{{Vasilyev, Dharnidharka, and Bohannon}}}
+\bibcite{guo-vosoughi-2023-length}{{10}{2023}{{Guo and Vosoughi}}{{}}}
+\bibcite{hill-etal-2016-learning}{{11}{2016}{{Felix~Hill and Korhonen}}{{}}}
+\bibcite{DBLP:journals/corr/abs-2002-10957}{{12}{2020}{{Wang et~al.}}{{Wang, Wei, Dong, Bao, Yang, and Zhou}}}
+\bibcite{DBLP:journals/corr/SutskeverVL14}{{13}{2014}{{Sutskever et~al.}}{{Sutskever, Vinyals, and Le}}}
+\bibcite{muennighoff2022mteb}{{14}{2022}{{Muennighoff et~al.}}{{Muennighoff, Tazi, Magne, and Reimers}}}
+\bibcite{mikolov2013efficient}{{15}{2013}{{Mikolov et~al.}}{{Mikolov, Chen, Corrado, and Dean}}}
+\bibcite{pennington-etal-2014-glove}{{16}{2014}{{Pennington et~al.}}{{Pennington, Socher, and Manning}}}
+\bibcite{DBLP:journals/corr/abs-1810-04805}{{17}{2018}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
+\bibcite{DBLP:journals/corr/abs-1907-11692}{{18}{2019}{{Liu et~al.}}{{Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov}}}
+\bibcite{randomwalk}{{19}{2020}{{Krapivsky}}{{}}}
+\bibcite{badembeddings}{{20}{2023}{{Kennedy}}{{}}}
+\bibcite{finegrained}{{21}{2016}{{Adi et~al.}}{{Adi, Kermany, Belinkov, Lavi, and Goldberg}}}
+\bibcite{multirc2}{{22}{2018}{{Khashabi et~al.}}{{Khashabi, Chaturvedi, Roth, Upadhyay, and Roth}}}
+\bibcite{randomparagraphs}{{23}{2023}{{Anonymous}}{{}}}
+\bibcite{tiktoken}{{24}{2022}{{OpenAI}}{{}}}
+\bibcite{touvron_llama_2023}{{25}{2023}{{Touvron et~al.}}{{Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozière, Goyal, Hambro, Azhar, Rodriguez, Joulin, Grave, and Lample}}}
+\bibcite{mpnet}{{26}{2020}{{Song et~al.}}{{Song, Tan, Qin, Lu, and Liu}}}
+\bibcite{5071230}{{27}{2010}{{Liu and Liu}}{{}}}
+\gdef \@abspage@last{15}
