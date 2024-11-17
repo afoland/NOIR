@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: summarization_metric.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for ""
+Name 1 in "Felix Hill , Kyunghyun Cho, and Anna Korhonen" has a comma at the end for entry hill-etal-2016-learning
+while executing---line 1233 of file unsrtnat.bst
+Warning--empty booktitle in zhang_bertscore_2019
+Name 1 in "Felix Hill , Kyunghyun Cho, and Anna Korhonen" has a comma at the end for entry hill-etal-2016-learning
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Felix Hill , Kyunghyun Cho, and Anna Korhonen" has a comma at the end for entry hill-etal-2016-learning
+while executing---line 1315 of file unsrtnat.bst
+Warning--empty journal in touvron_llama_2023
+You've used 26 entries,
+            2481 wiz_defined-function locations,
+            714 strings with 10806 characters,
+and the built_in function-call counts, 11192 in all, are:
+= -- 906
+> -- 716
+< -- 17
++ -- 266
+- -- 214
+* -- 879
+:= -- 1828
+add.period$ -- 104
+call.type$ -- 26
+change.case$ -- 52
+chr.to.int$ -- 26
+cite$ -- 28
+duplicate$ -- 549
+empty$ -- 932
+format.name$ -- 246
+if$ -- 2388
+int.to.chr$ -- 1
+int.to.str$ -- 27
+missing$ -- 21
+newline$ -- 158
+num.names$ -- 86
+pop$ -- 237
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 356
+stack$ -- 0
+substring$ -- 322
+swap$ -- 126
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 182
+warning$ -- 2
+while$ -- 77
+width$ -- 0
+write$ -- 385
+(There were 3 error messages)

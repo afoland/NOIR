@@ -1,0 +1,211 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Retkowski}(2023)]{2023arXiv230504853R}
+Fabian {Retkowski}.
+\newblock {The Current State of Summarization}.
+\newblock \emph{arXiv e-prints}, art. arXiv:2305.04853, May 2023.
+\newblock \doi{10.48550/arXiv.2305.04853}.
+
+\bibitem[Fabbri et~al.(2021)Fabbri, Kryściński, McCann, Xiong, Socher, and
+  Radev]{fabbri_summeval_2021}
+Alexander~R. Fabbri, Wojciech Kryściński, Bryan McCann, Caiming Xiong,
+  Richard Socher, and Dragomir Radev.
+\newblock {SummEval}: {Re}-evaluating {Summarization} {Evaluation}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  9:\penalty0 391--409, April 2021.
+\newblock ISSN 2307-387X.
+\newblock \doi{10.1162/tacl_a_00373}.
+\newblock URL \url{https://doi.org/10.1162/tacl_a_00373}.
+
+\bibitem[Lin(2004)]{lin_rouge_2004}
+Chin-Yew Lin.
+\newblock {ROUGE}: {A} {Package} for {Automatic} {Evaluation} of {Summaries}.
+\newblock In \emph{Text {Summarization} {Branches} {Out}}, pages 74--81,
+  Barcelona, Spain, July 2004. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W04-1013}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Kishore, Wu, Weinberger, and
+  Artzi]{zhang_bertscore_2019}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian~Q. Weinberger, and Yoav Artzi.
+\newblock {BERTScore}: {Evaluating} {Text} {Generation} with {BERT}.
+\newblock September 2019.
+\newblock URL \url{https://openreview.net/forum?id=SkeHuCVFDr}.
+
+\bibitem[Yuan et~al.(2021)Yuan, Neubig, and Liu]{yuan_bartscore_2021}
+Weizhe Yuan, Graham Neubig, and Pengfei Liu.
+\newblock {BARTScore}: {Evaluating} {Generated} {Text} as {Text} {Generation}.
+\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.~S. Liang, and
+  J.~Wortman Vaughan, editors, \emph{Advances in {Neural} {Information}
+  {Processing} {Systems}}, volume~34, pages 27263--27277. Curran Associates,
+  Inc., 2021.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2021/file/e4d2b6e6fdeca3e60e0f1a62fee3d9dd-Paper.pdf}.
+
+\bibitem[Xiao et~al.(2022)Xiao, Beltagy, Carenini, and
+  Cohan]{xiao_primera_2022}
+Wen Xiao, Iz~Beltagy, Giuseppe Carenini, and Arman Cohan.
+\newblock {PRIMERA}: {Pyramid}-based {Masked} {Sentence} {Pre}-training for
+  {Multi}-document {Summarization}.
+\newblock In \emph{Proceedings of the 60th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 5245--5263, Dublin, Ireland, May 2022. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.acl-long.360}.
+\newblock URL \url{https://aclanthology.org/2022.acl-long.360}.
+
+\bibitem[Gao et~al.(2020)Gao, Zhao, and Eger]{supert}
+Yang Gao, Wei Zhao, and Steffen Eger.
+\newblock {SUPERT:} towards new frontiers in unsupervised evaluation metrics
+  for multi-document summarization.
+\newblock \emph{CoRR}, abs/2005.03724, 2020.
+\newblock URL \url{https://arxiv.org/abs/2005.03724}.
+
+\bibitem[Vasilyev et~al.(2020)Vasilyev, Dharnidharka, and
+  Bohannon]{vasilyev-etal-2020-fill}
+Oleg Vasilyev, Vedant Dharnidharka, and John Bohannon.
+\newblock Fill in the {BLANC}: Human-free quality estimation of document
+  summaries.
+\newblock In Steffen Eger, Yang Gao, Maxime Peyrard, Wei Zhao, and Eduard Hovy,
+  editors, \emph{Proceedings of the First Workshop on Evaluation and Comparison
+  of NLP Systems}, pages 11--20, Online, November 2020. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.eval4nlp-1.2}.
+\newblock URL \url{https://aclanthology.org/2020.eval4nlp-1.2}.
+
+\bibitem[Guo and Vosoughi(2023)]{guo-vosoughi-2023-length}
+Xiaobo Guo and Soroush Vosoughi.
+\newblock Length does matter: Summary length can bias summarization metrics.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali, editors,
+  \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural
+  Language Processing}, pages 15869--15879, Singapore, December 2023.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.984}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.984}.
+
+\bibitem[Felix~Hill and Korhonen(2016)]{hill-etal-2016-learning}
+Kyunghyun~Cho Felix~Hill and Anna Korhonen.
+\newblock Learning distributed representations of sentences from unlabelled
+  data.
+\newblock In \emph{\em Proceedings of the 2016 Conference of the North
+  {A}merican Chapter of the Association for Computational Linguistics: Human
+  Language Technologies}, 2016.
+
+\bibitem[Wang et~al.(2020)Wang, Wei, Dong, Bao, Yang, and
+  Zhou]{DBLP:journals/corr/abs-2002-10957}
+Wenhui Wang, Furu Wei, Li~Dong, Hangbo Bao, Nan Yang, and Ming Zhou.
+\newblock Minilm: Deep self-attention distillation for task-agnostic
+  compression of pre-trained transformers.
+\newblock \emph{CoRR}, abs/2002.10957, 2020.
+\newblock URL \url{https://arxiv.org/abs/2002.10957}.
+
+\bibitem[Sutskever et~al.(2014)Sutskever, Vinyals, and
+  Le]{DBLP:journals/corr/SutskeverVL14}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock \emph{CoRR}, abs/1409.3215, 2014.
+\newblock URL \url{http://arxiv.org/abs/1409.3215}.
+
+\bibitem[Muennighoff et~al.(2022)Muennighoff, Tazi, Magne, and
+  Reimers]{muennighoff2022mteb}
+Niklas Muennighoff, Nouamane Tazi, Lo{\"\i}c Magne, and Nils Reimers.
+\newblock Mteb: Massive text embedding benchmark.
+\newblock \emph{arXiv preprint arXiv:2210.07316}, 2022.
+\newblock \doi{10.48550/ARXIV.2210.07316}.
+\newblock URL \url{https://arxiv.org/abs/2210.07316}.
+
+\bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and
+  Dean]{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space, 2013.
+
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+  Manning]{pennington-etal-2014-glove}
+Jeffrey Pennington, Richard Socher, and Christopher Manning.
+\newblock {G}lo{V}e: Global vectors for word representation.
+\newblock In Alessandro Moschitti, Bo~Pang, and Walter Daelemans, editors,
+  \emph{Proceedings of the 2014 Conference on Empirical Methods in Natural
+  Language Processing ({EMNLP})}, pages 1532--1543, Doha, Qatar, October 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/D14-1162}.
+\newblock URL \url{https://aclanthology.org/D14-1162}.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and
+  Toutanova]{DBLP:journals/corr/abs-1810-04805}
+Jacob Devlin, Ming{-}Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT:} pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock \emph{CoRR}, abs/1810.04805, 2018.
+\newblock URL \url{http://arxiv.org/abs/1810.04805}.
+
+\bibitem[Liu et~al.(2019)Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis,
+  Zettlemoyer, and Stoyanov]{DBLP:journals/corr/abs-1907-11692}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock Roberta: {A} robustly optimized {BERT} pretraining approach.
+\newblock \emph{CoRR}, abs/1907.11692, 2019.
+\newblock URL \url{http://arxiv.org/abs/1907.11692}.
+
+\bibitem[Krapivsky(2020)]{randomwalk}
+P.~Krapivsky.
+\newblock https://mathoverflow.net/questions/320630/, 2020.
+
+\bibitem[Kennedy(2023)]{badembeddings}
+Curtis Kennedy.
+\newblock some-questions-about-text-embedding-ada-002-s-embedding, 2023.
+
+\bibitem[Adi et~al.(2016)Adi, Kermany, Belinkov, Lavi, and
+  Goldberg]{finegrained}
+Yossi Adi, Einat Kermany, Yonatan Belinkov, Ofer Lavi, and Yoav Goldberg.
+\newblock Fine-grained analysis of sentence embeddings using auxiliary
+  prediction tasks.
+\newblock \emph{CoRR}, abs/1608.04207, 2016.
+\newblock URL \url{http://arxiv.org/abs/1608.04207}.
+
+\bibitem[Khashabi et~al.(2018)Khashabi, Chaturvedi, Roth, Upadhyay, and
+  Roth]{multirc2}
+Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay, and Dan
+  Roth.
+\newblock Looking beyond the surface:a challenge set for reading comprehension
+  over multiple sentences.
+\newblock In \emph{Proceedings of North American Chapter of the Association for
+  Computational Linguistics (NAACL)}, 2018.
+
+\bibitem[Anonymous(2023)]{randomparagraphs}
+Anonymous.
+\newblock Random paragraph generator:
+  https://randomwordgenerator.com/paragraph.php, 2023.
+
+\bibitem[OpenAI(2022)]{tiktoken}
+OpenAI.
+\newblock https://github.com/openai/tiktoken, 2022.
+
+\bibitem[Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux,
+  Lacroix, Rozière, Goyal, Hambro, Azhar, Rodriguez, Joulin, Grave, and
+  Lample]{touvron_llama_2023}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+  Lachaux, Timothee Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+  Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+  Lample.
+\newblock {LLaMA}: {Open} and {Efficient} {Foundation} {Language} {Models}.
+\newblock 2023.
+
+\bibitem[Song et~al.(2020)Song, Tan, Qin, Lu, and Liu]{mpnet}
+Kaitao Song, Xu~Tan, Tao Qin, Jianfeng Lu, and Tie{-}Yan Liu.
+\newblock Mpnet: Masked and permuted pre-training for language understanding.
+\newblock \emph{CoRR}, abs/2004.09297, 2020.
+\newblock URL \url{https://arxiv.org/abs/2004.09297}.
+
+\bibitem[Liu and Liu(2010)]{5071230}
+Feifan Liu and Yang Liu.
+\newblock Exploring correlation between rouge and human evaluation on meeting
+  summaries.
+\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
+  18\penalty0 (1):\penalty0 187--196, 2010.
+\newblock \doi{10.1109/TASL.2009.2025096}.
+
+\end{thebibliography}
